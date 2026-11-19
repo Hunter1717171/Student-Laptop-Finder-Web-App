@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="min-h-screen bg-[var(--page-bg)] text-[var(--page-text)]">
+    <header id="header"></header>
+
+    <main class="mx-auto max-w-6xl px-4 py-8">
+        <h1 class="mb-6 text-3xl font-bold">My Favorites</h1>
+
+        <p id="summary" class="mb-4"></p>
+        <button id="clear" class="btn-action mb-6">Clear All</button>
+
+        <div id="favoritesList" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </main>
+
+    <script type="module" src="src/js/favorites.js"></script>
+</body>
+
+</html>
